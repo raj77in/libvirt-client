@@ -1,5 +1,5 @@
 FROM fedora
-MAINTAINER "Brent Baude" <bbaude@redhat.com>
+MAINTAINER "Amit Agarwal"
 ENV container docker
 RUN dnf -y update && dnf clean all
 RUN dnf -y install systemd
